@@ -1,0 +1,72 @@
+.project-list {
+
+  margin-left: 0;
+  clear: both;
+
+  li {
+    list-style: none;
+    display: inline-block;
+    width: $base-max-width / 3;
+    /*float: left;*/
+    position: relative;
+  }
+
+  .image-wrapper {
+    width: $base-max-width / 3;
+    height: $base-max-width / 3;
+    display: block;
+    position: relative;
+  }
+
+  img {
+    bottom: 0;
+    height: $base-max-width / 3;
+    width: $base-max-width / 3;
+  }
+
+  .title {
+    position: absolute;
+    bottom: 0;
+    background: transparentize($text-color, .5);
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: .5em 1em;
+    color: $background-color;
+
+    a {
+      color: $background-color;
+    }
+  }
+}
+
+.clients {
+  margin-top: 4rem;
+}
+
+.client-list {
+  margin-left: 0;
+  list-style: none;
+
+  li {
+    display: inline-block;
+    margin-right: 3rem;
+    margin-top: 2rem;
+  }
+
+  .image-wrapper {
+    width: 120px;
+    height: 120px;
+    display: block;
+    position: relative;
+  }
+
+  img {
+    bottom: 0;
+    width: 120px;
+  }
+
+  h2 {
+    margin-top: 1rem;
+  }
+}

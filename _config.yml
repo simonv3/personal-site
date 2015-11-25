@@ -1,0 +1,19 @@
+# Site settings
+title: Simon Vansintjan
+email: simon@vansintjan.net
+description: Freelance User Experience Developer
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://simon.vansintjan.net" # the base hostname & protocol for your site
+twitter_username: simonv3
+github_username:  simonv3
+
+# Build settings
+markdown: kramdown
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+  clients:
+    output: true
+    permalink: /clients/:path/
