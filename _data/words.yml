@@ -1,0 +1,71 @@
+- source:
+  name: DFW Reader
+  words:
+  - word: actuate
+    definition: 1. cause (a machine or device) to operate. 2.  cause (someone) to act in a particular way; motivate
+  - word: agronomic
+    definition : the science of soil management and crop production.
+
+  - word: anhedonia
+    definition: inability to feel pleasure.
+
+  - word: annunciate
+    definition: announce (something)
+
+  - word: antediluvian
+    definition: 1. of or belonging to the time before the biblical Flood. 2. ridiculously old-fashioned
+
+  - word: apathia
+    definition: lack of interest, enthusiasm, or concern
+
+  - word: apotheosis
+    definition: the highest point in the development of something; culmination or climax.
+
+  - word: asperse
+    definition: attack or criticize the reputation or integrity of.
+  - word: atavistic
+    definition: relating to or characterized by reversion to something ancient or ancestral.
+  - word: derring-do
+    definition: action displaying heroic courage
+  - word: effete
+    definition: 1. affected, overrefined, and ineffectual. 2. no longer capable of effective action
+  - word: enfilade
+    definition: 1. a volley of gunfire directed along a line from end to end. 2. a suite of rooms with doorways in line with each other.
+  - word: episcopate
+    definition: the office or term of office of a bishop.
+  - word: erudite
+    definition: having or showing great knowledge or learning.
+  - word: genuflection
+    definition: lower one's body briefly by bending one knee to the ground, typically in worship or as a sign of respect.
+  - word: hirsute
+    definition: hairy.
+  - word: kismet
+    definition: destiny; fate.
+  - word: lapidary
+    definition:  engraved on or suitable for engraving on stone and therefore elegant and concise.
+  - word: monograph
+    definition: a detailed written study of a single specialized subject or an aspect of it.
+  - word: mythopoeic
+    definition: the making of a myth or myths
+    star: true
+
+  - word: proclivities
+    definition: a tendency to choose or do something regularly; an inclination or predisposition toward a particular thing.
+  - word: saprogenic
+    definition: causing or produced by putrefaction or decay.
+  - word: sardonic
+    definition: grimly mocking or cynical.
+  - word: saurian
+    definition: of or like a lizard.
+    star: true
+  - word: sobriquet
+    definition: a person's nickname.
+  - word: solmization
+    definition: a system of associating each note of a scale with a particular syllable, especially to teach singing.
+  - word: verve
+    definition: vigor and spirit or enthusiasm.
+  - word: wen
+    definition: a boil or other swelling or growth on the skin, especially a sebaceous cyst.
+  - word: pablumizing
+    definition: making something that could be cutting edge policy but having to remove great words and context that would prove to be too complex for most people.
+    star: true
