@@ -1,5 +1,4 @@
 ---
-layout: project
 title:  "Quick Survey"
 date:   2015-11-24 10:31:43
 categories: project

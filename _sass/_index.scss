@@ -1,3 +1,5 @@
+$project-width: $base-max-width / 5;
+
 .project-list {
 
   margin-left: 0;
@@ -6,27 +8,28 @@
   li {
     list-style: none;
     display: inline-block;
-    width: $base-max-width / 3;
+    width: $project-width;
     /*float: left;*/
     position: relative;
   }
 
   .image-wrapper {
-    width: $base-max-width / 3;
-    height: $base-max-width / 3;
+    width: $project-width;
+    height: $project-width;
     display: block;
     position: relative;
   }
 
   img {
     bottom: 0;
-    height: $base-max-width / 3;
-    width: $base-max-width / 3;
+    height: $project-width;
+    width: $project-width;
   }
 
   .title {
     position: absolute;
     bottom: 0;
+    top: 0;
     background: transparentize($text-color, .5);
     display: block;
     width: 100%;

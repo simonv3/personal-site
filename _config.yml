@@ -17,3 +17,6 @@ collections:
   clients:
     output: true
     permalink: /clients/:path/
+  experiments:
+    output: true
+    permalink: /experiments/:path/

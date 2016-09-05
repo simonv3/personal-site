@@ -4,7 +4,7 @@ layout: default
 
 <div class="home">
   <section class="projects">
-  <h1 class="page-heading">Projects (FOSS)</h1>
+  <h1 class="page-heading">Long Term Projects (FOSS)</h1>
 
   <ul class="project-list">
     {% for post in site.projects %}
@@ -18,16 +18,37 @@ layout: default
             </h2>
             <span>{{ post.tags }}</span>
           </div>
-
     {% endfor %}
   </ul>
   </section>
   <section class="clients">
-  <h1 class="section-header">Worked With (Not Necessarily FOSS)</h1>
-  <ul class="client-list">{% for post in site.clients %}<li>
-      <img src="{{ post.image | prepend: site.baseurl }}">
-      <h2>
-        {{ post.title }}
-      </h2>
-    </li>{% endfor %}</ul>
+    <h1 class="section-header">Past Clients</h1>
+    <ul class="client-list">
+      {% for post in site.clients %}
+        <li>
+          <img src="{{ post.image | prepend: site.baseurl }}">
+          <h2>
+            {{ post.title }}
+          </h2>
+      {% endfor %}
+    </ul>
+  </section>
+  <section class="experiments">
+    <h1 class="section-header">Experiments</h1>
+    <ul class="project-list">
+      {% for post in site.experiments %}
+        <li style="background-color: #{{ post.background }}">
+          <div class="image-wrapper">
+            <img src="{{ post.image | prepend: site.baseurl }}">
+          </div>
+          <div class="title">
+            <h2>
+              <a class="post-link" href="{{ post.link | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+            <span>{{ post.tags }}</span>
+          </div>
+      {% endfor %}
+    </ul>
+  </section>
 </div>
+{{ site.data.words }}
