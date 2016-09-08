@@ -5,22 +5,16 @@
     definition: 1. cause (a machine or device) to operate. 2.  cause (someone) to act in a particular way; motivate
   - word: agronomic
     definition : the science of soil management and crop production.
-
   - word: anhedonia
     definition: inability to feel pleasure.
-
   - word: annunciate
     definition: announce (something)
-
   - word: antediluvian
     definition: 1. of or belonging to the time before the biblical Flood. 2. ridiculously old-fashioned
-
   - word: apathia
     definition: lack of interest, enthusiasm, or concern
-
   - word: apotheosis
     definition: the highest point in the development of something; culmination or climax.
-
   - word: asperse
     definition: attack or criticize the reputation or integrity of.
   - word: atavistic
@@ -48,7 +42,6 @@
   - word: mythopoeic
     definition: the making of a myth or myths
     star: true
-
   - word: proclivities
     definition: a tendency to choose or do something regularly; an inclination or predisposition toward a particular thing.
   - word: saprogenic
@@ -69,3 +62,6 @@
   - word: pablumizing
     definition: making something that could be cutting edge policy but having to remove great words and context that would prove to be too complex for most people.
     star: true
+  - word: boviscopophobia
+    definition: "fear of being seen as bovine. as in: a tourist."
+

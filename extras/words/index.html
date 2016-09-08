@@ -1,0 +1,17 @@
+---
+layout: single
+---
+Some words that I didn't know, and then I looked them up:
+
+
+{% for source in site.data.words %}
+  <div>
+  {{ source.name }}
+  <ul>
+  {% for w in source.words %}
+  <li>{% if w.star %}<strong>{% endif %}{{ w.word }}{% if w.star %}</strong>{% endif %}: {{ w.definition }}</li>
+  {% endfor %}
+  </ul>
+  </div>
+{% endfor %}
+
